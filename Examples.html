@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- h1+h2+p -->
+    <h1></h1>
+    <h2></h2>
+    <p></p>
+
+    <!-- h1{Soy un título}+p{y yo soy un párrafo} -->
+    <h1>Soy un título</h1>
+    <p>y yo soy un párrafo</p>
+
+    <!-- h1>mark -->
+    <h1>
+        <mark></mark>
+    </h1>
+
+    <!-- h1>mark{El texto sunrayado} -->
+    <h1>
+        <mark>El texto sunrayado</mark>
+    </h1>
+
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li{Elemento}*5 -->
+    <ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ul>
+
+    <!-- table>tr>td*3 -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- table>(tr>th*3)+tr>td*3 -->
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- table#super-table>tr>td.table-data*3 -->
+    <table id="super-table">
+        <tr>
+            <td class="table-data"></td>
+            <td class="table-data"></td>
+            <td class="table-data"></td>
+        </tr>
+    </table>
+
+    <!-- form[action="/action_page.php" method="get"]>label[for="fname"]{First name:}+input[type="text" id="fname" name="fname"]+input[type="submit" value="submit"] -->
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
