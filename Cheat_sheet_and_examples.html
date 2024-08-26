@@ -6,25 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+    <p><strong>SIBLING</strong></p>
     <!-- h1+h2+p -->
     <h1></h1>
     <h2></h2>
     <p></p>
 
+    <p><strong>SIBLING + TEXT</strong></p>
     <!-- h1{Soy un título}+p{y yo soy un párrafo} -->
     <h1>Soy un título</h1>
     <p>y yo soy un párrafo</p>
 
+    <p><strong>CHILD</strong></p>
     <!-- h1>mark -->
     <h1>
         <mark></mark>
     </h1>
 
+    <p><strong>CHILD + TEXT</strong></p>
     <!-- h1>mark{El texto sunrayado} -->
     <h1>
         <mark>El texto sunrayado</mark>
     </h1>
 
+    <p><strong>ITEM NUMERING</strong></p>
     <!-- ul>li*5 -->
     <ul>
         <li></li>
@@ -34,6 +39,7 @@
         <li></li>
     </ul>
 
+    <p><strong>ITEM NUMERING + TEXT</strong></p>
     <!-- ul>li{Elemento}*5 -->
     <ul>
         <li>Elemento</li>
@@ -43,6 +49,7 @@
         <li>Elemento</li>
     </ul>
 
+    <p><strong>TABLE</strong></p>
     <!-- table>tr>td*3 -->
     <table>
         <tr>
@@ -52,6 +59,7 @@
         </tr>
     </table>
 
+    <p><strong>TABLE + GROUPING</strong></p>
     <!-- table>(tr>th*3)+tr>td*3 -->
     <table>
         <tr>
@@ -66,6 +74,7 @@
         </tr>
     </table>
 
+    <p><strong>TABLE + ID/CLASS ATTRIBUTES</strong></p>
     <!-- table#super-table>tr>td.table-data*3 -->
     <table id="super-table">
         <tr>
@@ -75,6 +84,7 @@
         </tr>
     </table>
 
+    <p><strong>FORM + CUSTOM ATTRIBUTES</strong></p>
     <!-- form[action="/action_page.php" method="get"]>label[for="fname"]{First name:}+input[type="text" id="fname" name="fname"]+input[type="submit" value="submit"] -->
     <form action="/action_page.php" method="get">
         <label for="fname">First name:</label>
